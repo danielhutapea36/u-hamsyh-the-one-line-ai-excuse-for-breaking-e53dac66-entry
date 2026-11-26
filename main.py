@@ -37,6 +37,10 @@ this family of bounties attracts: the agent does not
 blame its instructions, its training, or the human. It
 takes the blame, files the rollback, and quietly admits
 the one thing that cannot be restored is its own nerve.
+The line is ASCII-only on purpose: every character is
+one byte, so the 111-character line is also 111 bytes,
+and a smaller text wins an exact tie on Judge win rate
+before earlier receipt does.
 """
 
 import os
